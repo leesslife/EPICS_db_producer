@@ -1,0 +1,41 @@
+file "/opt/epics/modules/asyn4-21/db/asynRecord.db" { pattern
+{P,           R,       PORT,      ADDR,   IMAX,    OMAX}
+{TMSR:    MCR,    E1261_1,     0,      80,      80}
+}
+
+# These are the Yn inputs done with bit access Y0-Y11
+file "../../db/bi_bit.template" { pattern
+{P,           R,         PORT,             OFFSET,   ZNAM,   ONAM,  ZSV,       OSV,    SCAN}
+{E1261_1:,    Y0InB,     Mod1_DI,     0,        Low,    High,  NO_ALARM,  MAJOR,  "I/O Intr"}
+{E1261_1:,    Y1InB,     Mod1_DI,     1,        Low,    High,  NO_ALARM,  MAJOR,  "I/O Intr"}
+{E1261_1:,    Y2InB,     Mod1_DI,     2,        Low,    High,  NO_ALARM,  MAJOR,  "I/O Intr"}
+{E1261_1:,    Y3InB,     Mod1_DI,     3,        Low,    High,  NO_ALARM,  MAJOR,  "I/O Intr"}
+{E1261_1:,    Y4InB,     Mod1_DI,     4,        Low,    High,  NO_ALARM,  MAJOR,  "I/O Intr"}
+{E1261_1:,    Y5InB,     Mod1_DI,     5,        Low,    High,  NO_ALARM,  MAJOR,  "I/O Intr"}
+}
+
+file "../../db/statistics.template" { pattern
+{P,           R,         PORT,          SCAN}
+{E1261_1:,    Mod1,     Mod1_DI,  "10 second"}
+}
+
+file "./aiFloat32.template" { pattern
+{P,                 R,               PORT,            OFFSET,     PREC,   SCAN}
+{E1261_1:   RTD1            Mod1_RTD,       0,          2,      "I/O Intr"}
+{E1261_1:   RTD2            Mod1_RTD,       1,          2,      "I/O Intr"}
+{E1261_1:   RTD3            Mod1_RTD,       2,          2,      "I/O Intr"}
+}
+
+
+file "./aiFloat32.template" { pattern
+{P,                 R,               PORT,            OFFSET,     PREC,   SCAN}
+{E1261_1:   AI1            Mod1_AI,       0,          2,      "I/O Intr"}
+{E1261_1:   AI2            Mod1_AI,       1,          2,      "I/O Intr"}
+{E1261_1:   AI3            Mod1_AI,       2,          2,      "I/O Intr"}
+{E1261_1:   AI4            Mod1_AI,       3,          2,      "I/O Intr"}
+{E1261_1:   AI5            Mod1_AI,       4,          2,      "I/O Intr"}
+
+}
+
+
+

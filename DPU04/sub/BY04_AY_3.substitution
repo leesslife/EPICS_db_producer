@@ -1,0 +1,27 @@
+file "../../db/aoFloat64.template" { pattern
+{P,    R,    PORT,    OFFSET,    DATA_TYPE,    LOPR,    HOPR,    PREC}
+{BY04,    AY101,    BY04_AY_3,    0,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY04,    AY102,    BY04_AY_3,    2,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY04,    AY103,    BY04_AY_3,    4,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY04,    AY104,    BY04_AY_3,    6,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY04,    AY105,    BY04_AY_3,    8,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY04,    AY106,    BY04_AY_3,    10,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY04,    AY107,    BY04_AY_3,    12,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY04,    AY108,    BY04_AY_3,    14,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY04,    AY109,    BY04_AY_3,    16,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY04,    AY110,    BY04_AY_3,    18,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY04,    AY111,    BY04_AY_3,    20,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY04,    AY112,    BY04_AY_3,    22,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY04,    AY113,    BY04_AY_3,    24,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY04,    AY114,    BY04_AY_3,    26,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY04,    AY115,    BY04_AY_3,    28,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY04,    AY116,    BY04_AY_3,    30,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY04,    AY117,    BY04_AY_3,    32,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY04,    AY118,    BY04_AY_3,    34,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY04,    AY119,    BY04_AY_3,    36,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY04,    AY120,    BY04_AY_3,    38,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY04,    AY121,    BY04_AY_3,    40,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY04,    AY122,    BY04_AY_3,    42,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY04,    AY123,    BY04_AY_3,    44,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY04,    AY124,    BY04_AY_3,    46,    FLOAT32_BE,    -1e6,    1e6,    3}
+}

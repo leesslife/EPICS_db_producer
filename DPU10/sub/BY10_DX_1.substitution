@@ -1,0 +1,26 @@
+file "../../db/bi_bit.template" { pattern
+{P,    R,    PORT,    OFFSET,    ZNAM,    ONAM,    ZSV,    OSV,    SCAN}
+{BY10,    DX001,    BY10_DX_1,    0,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY10,    DX002,    BY10_DX_1,    1,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY10,    DX003,    BY10_DX_1,    2,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY10,    DX004,    BY10_DX_1,    3,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY10,    DX005,    BY10_DX_1,    4,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY10,    DX006,    BY10_DX_1,    5,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY10,    DX007,    BY10_DX_1,    6,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY10,    DX008,    BY10_DX_1,    7,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY10,    DX009,    BY10_DX_1,    8,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY10,    DX010,    BY10_DX_1,    9,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY10,    DX011,    BY10_DX_1,    10,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY10,    DX012,    BY10_DX_1,    11,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY10,    DX013,    BY10_DX_1,    12,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY10,    DX014,    BY10_DX_1,    13,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY10,    DX015,    BY10_DX_1,    14,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY10,    DX016,    BY10_DX_1,    15,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY10,    DX017,    BY10_DX_1,    16,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY10,    DX018,    BY10_DX_1,    17,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY10,    DX019,    BY10_DX_1,    18,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY10,    DX020,    BY10_DX_1,    19,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY10,    DX021,    BY10_DX_1,    20,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY10,    DX022,    BY10_DX_1,    21,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY10,    DX023,    BY10_DX_1,    22,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+}

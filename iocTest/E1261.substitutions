@@ -1,0 +1,54 @@
+file "/usr/local/epics/asyn4-29/db/asynRecord.db" { pattern
+{P,           R,       PORT,      ADDR,   IMAX,    OMAX}
+{TMSR:    DCS,    DPU01,     0,      80,      80}
+}
+
+# These are the Yn inputs done with bit access Y0-Y11
+file "../../db/bi_bit.template" { pattern
+{P,           R,         PORT,             OFFSET,   ZNAM,   ONAM,  ZSV,       OSV,    SCAN}
+{DPU01:,    Y0InB,     Mod1_BI,     0,        Low,    High,  NO_ALARM,  MAJOR,  "I/O Intr"}
+{DPU01:,    Y1InB,     Mod1_BI,     1,        Low,    High,  NO_ALARM,  MAJOR,  "I/O Intr"}
+{DPU01:,    Y2InB,     Mod1_BI,     2,        Low,    High,  NO_ALARM,  MAJOR,  "I/O Intr"}
+{DPU01:,    Y3InB,     Mod1_BI,     3,        Low,    High,  NO_ALARM,  MAJOR,  "I/O Intr"}
+{DPU01:,    Y4InB,     Mod1_BI,     4,        Low,    High,  NO_ALARM,  MAJOR,  "I/O Intr"}
+{DPU01:,    Y5InB,     Mod1_BI,     5,        Low,    High,  NO_ALARM,  MAJOR,  "I/O Intr"}
+{DPU01:,    Y6InB,     Mod1_BI,     6,        Low,    High,  NO_ALARM,  MAJOR,  "I/O Intr"}
+{DPU01:,    Y7InB,     Mod1_BI,     7,        Low,    High,  NO_ALARM,  MAJOR,  "I/O Intr"}
+}
+
+file "../../db/statistics.template" { pattern
+{P,           R,         PORT,          SCAN}
+{DPU01:,    Mod1,     Mod1_BI,  "10 second"}
+}
+
+
+file "../../db/aiFloat64.template" { pattern
+{P,           R,                PORT,     OFFSET,   DATA_TYPE,    LOPR, HOPR, PREC,    SCAN}
+{DPU01:,    AI:FLOAT1_BE,    Mod1_AI,    0,      FLOAT32_BE,     -1e6,  1e6,    0,   "I/O Intr"}
+{DPU01:,    AI:FLOAT2_BE,    Mod1_AI,    2,      FLOAT32_BE,     -1e6,  1e6,    0,   "I/O Intr"}
+{DPU01:,    AI:FLOAT3_BE,    Mod1_AI,    4,      FLOAT32_BE,     -1e6,  1e6,    0,   "I/O Intr"}
+
+
+}
+
+
+file "../../db/bo_bit.template" { pattern
+{P,           R,          PORT,              OFFSET,   ZNAM,   ONAM}
+{DPU01:,    Y0OutB,     Mod1_BO,     0,        Low,    High}
+{DPU01:,    Y1OutB,     Mod1_BO,     1,        Low,    High}
+{DPU01:,    Y2OutB,     Mod1_BO,     2,        Low,    High}
+{DPU01:,    Y3OutB,     Mod1_BO,     3,        Low,    High}
+{DPU01:,    Y4OutB,     Mod1_BO,     4,        Low,    High}
+{DPU01:,    Y5OutB,     Mod1_BO,     5,        Low,    High}
+{DPU01:,    Y6OutB,     Mod1_BO,     6,        Low,    High}
+{DPU01:,    Y7OutB,     Mod1_BO,     7,        Low,    High}
+}
+
+file "../../db/aoFloat64.template" { pattern
+{P,           R,               PORT,      OFFSET,   DATA_TYPE,    LOPR, HOPR, PREC}
+{DPU01:,    AO:FLOAT1_BE,    Mod1_AO,   0,     FLOAT32_BE,   -1e6,  1e6,    3}
+{DPU01:,    AO:FLOAT2_BE,    Mod1_AO,   2,     FLOAT32_BE,   -1e6,  1e6,    3}
+{DPU01:,    AO:FLOAT3_BE,    Mod1_AO,   4,     FLOAT32_BE,   -1e6,  1e6,    3}
+{DPU01:,    AO:FLOAT4_BE,    Mod1_AO,   6,     FLOAT32_BE,   -1e6,  1e6,    3}
+
+}

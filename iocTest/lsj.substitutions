@@ -1,0 +1,31 @@
+file "/usr/local/epics/asyn4-29/db/asynRecord.db" { pattern
+{P,           R,       PORT,      ADDR,   IMAX,    OMAX}
+{TMSR:    DCS,    DPU01,     0,      80,      80}
+}
+
+# These are the Yn inputs done with bit access Y0-Y11
+
+file "../../db/statistics.template" { pattern
+{P,           R,         PORT,          SCAN}
+{DPU01:,    Mod1,     Mod1_BI,  "10 second"}
+}
+
+
+file "../../db/ai.template" { pattern
+{P,         R,      PORT,               OFFSET, BITS,  EGUL,  EGUF,   PREC,   SCAN}
+{LSJ:,    SysInfo1,   Mod_In_Word,   0,      16,   0,    65535,    3,      "I/O Intr"}
+{LSJ:,    SysInfo2,   Mod_In_Word,   1,      16,   0,    65535,    3,      "I/O Intr"}
+{LSJ:,    SysInfo3,   Mod_In_Word,   2,      16,   0,    65535,    3,      "I/O Intr"}
+{LSJ:,    SysInfo4,   Mod_In_Word,   3,      16,   0,    65535,    3,      "I/O Intr"}
+{LSJ:,    SysInfo5,   Mod_In_Word,   4,      16,   0,    65535,    3,      "I/O Intr"}
+{LSJ:,    SysInfo6,   Mod_In_Word,   5,      16,   0,    65535,    3,      "I/O Intr"}
+{LSJ:,    SysInfo7,   Mod_In_Word,   6,      16,   0,    65535,    3,      "I/O Intr"}
+{LSJ:,    SysInfo8,   Mod_In_Word,   7,      16,   0,    6553.5,    3,      "I/O Intr"}
+}
+file "../../db/longout.template" { pattern
+{P,           R,               PORT,      OFFSET}
+{lsj:,    Ctrl,        Mod_Out_Word,    0}
+}
+
+
+

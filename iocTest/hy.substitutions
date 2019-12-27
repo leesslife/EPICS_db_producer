@@ -1,0 +1,50 @@
+# asyn record for the underlying asyn octet port
+file "$(ASYN)/db/asynRecord.db" { pattern
+{P,           R,       PORT,      ADDR,   IMAX,    OMAX}
+{COMP:    OctetAsyn,    COMP,     0,      80,      80}
+}
+
+# These are the Xn inputs done with bit access X0-X7
+
+file "../../db/mbbiDirect.template" { pattern
+{P,           R,       PORT,           OFFSET,  MASK,   SCAN}
+{COMP:,    X0L,     K1_Xn_Word,      7,         0x1,    "I/O Intr"}
+}
+
+file "../../db/mbbiDirect.template" { pattern
+{P,           R,       PORT,           OFFSET,  MASK,   SCAN}
+{COMP:,    X1L,     K1_Xn_Word,      8,         0x1,    "I/O Intr"}
+}
+
+file "../../db/statistics.template" { pattern
+{P,           R,       PORT,       SCAN}
+{COMP:,    XnB,     K1_Xn_Word,  "10 second"}
+} 
+file "../../db/poll_delay.template" { pattern
+{P,           R,            PORT}
+{COMP:,    XnBPollDelay, K1_Xn_Bit}
+}
+
+
+# These are the Xn inputs done with word access X0-X7
+file "../../db/bi_word.template" { pattern
+{P,           R,       PORT,           OFFSET,    MASK,     ZNAM,   ONAM,  ZSV,       OSV,    SCAN}
+{COMP:,    X0W,     K1_Xn_Word,     0,        0x0001,    Low,    High,  NO_ALARM,  MAJOR,  "I/O Intr"}
+{COMP:,    X1W,     K1_Xn_Word,     0,        0x0002,    Low,    High,  NO_ALARM,  MAJOR,  "I/O Intr"}
+{COMP:,    X2W,     K1_Xn_Word,     0,        0x0004,    Low,    High,  NO_ALARM,  MAJOR,  "I/O Intr"}
+{COMP:,    X3W,     K1_Xn_Word,     0,        0x0008,    Low,    High,  NO_ALARM,  MAJOR,  "I/O Intr"}
+{COMP:,    X4W,     K1_Xn_Word,     0,        0x0010,    Low,    High,  NO_ALARM,  MAJOR,  "I/O Intr"}
+{COMP:,    X5W,     K1_Xn_Word,     0,        0x0020,    Low,    High,  NO_ALARM,  MAJOR,  "I/O Intr"}
+{COMP:,    X6W,     K1_Xn_Word,     0,        0x0040,    Low,    High,  NO_ALARM,  MAJOR,  "I/O Intr"}
+{COMP:,    X7W,     K1_Xn_Word,     0,        0x0080,    Low,    High,  NO_ALARM,  MAJOR,  "I/O Intr"}
+}
+file "../../db/mbbiDirect.template" { pattern
+{P,           R,       PORT,         OFFSET,    MASK,  SCAN}
+{COMP:,    XnL,     K1_Xn_Word,     0,        0xFFFF, "I/O Intr"}
+}
+file "../../db/mbboDirect.template" { pattern
+{P,           R,         PORT,             OFFSET, MASK}
+{COMP:,    Y0OutBL,     K1_Yn_Word,    0,      0x1}
+}
+
+

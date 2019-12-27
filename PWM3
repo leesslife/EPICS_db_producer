@@ -1,0 +1,216 @@
+cInit: Reached initHookAfterInitRecSup
+iocInit: Reached initHookAfterInitDevSup
+2019/04/02 13:37:07.830 pwm2_4: queueRequest failed
+
+2019/04/02 13:37:07.830 pwm2_4: queueRequest failed
+
+2019/04/02 13:37:07.830 pwm2_5: queueRequest failed
+
+2019/04/02 13:37:07.830 pwm2_5: queueRequest failed
+
+2019/04/02 13:37:07.830 pwm3_5: queueRequest failed
+
+2019/04/02 13:37:07.830 pwm3_5: queueRequest failed
+
+2019/04/02 13:37:07.830 pwm3_6: queueRequest failed
+
+2019/04/02 13:37:07.830 pwm3_6: queueRequest failed
+
+2019/04/02 13:37:07.830 pwm3_7: queueRequest failed
+
+2019/04/02 13:37:07.830 pwm3_7: queueRequest failed
+
+2019/04/02 13:37:07.830 pwm3_8: queueRequest failed
+
+2019/04/02 13:37:07.830 pwm3_8: queueRequest failed
+
+2019/04/02 13:37:07.830 pwm3_9: queueRequest failed
+
+2019/04/02 13:37:07.830 pwm3_9: queueRequest failed
+
+2019/04/02 13:37:07.830 pwmC03: queueRequest failed
+
+2019/04/02 13:37:07.830 pwmC03: queueRequest failed
+
+iocInit: Reached initHookAfterInitDatabase
+iocInit: Reached initHookAfterFinishDevSup
+iocInit: Reached initHookAfterScanInit
+iocInit: Reached initHookAfterInitialProcess
+cas warning: Configured TCP port was unavailable.
+cas warning: Using dynamically assigned TCP port 51598,
+cas warning: but now two or more servers share the same UDP port.
+cas warning: Depending on your IP kernel this server may not be
+cas warning: reachable with UDP unicast (a host's IP in EPICS_CA_ADDR_LIST)
+The CA server's beacon address list was empty after initialization?
+iocInit: Reached initHookAfterCaServerInit
+iocInit: Reached initHookAfterIocBuilt
+iocInit: Reached initHookAtIocRun
+iocInit: Reached initHookAfterDatabaseRunning
+iocInit: Reached initHookAfterInterruptAccept
+iocInit: Reached initHookAfterCaServerRunning
+iocInit: Reached initHookAtEnd
+iocRun: All initialization complete
+iocInit: Reached initHookAfterIocRunning
+## Start any sequence programs
+#seq sncExample, "user=hanlifengHost"
+epics> dbl
+pwm2_4:alarm
+pwm2_4:ctl
+pwm2_4:dig_in
+pwm2_4:dig_out
+pwm2_4:err_cmd
+pwm2_4:err_len
+pwm2_4:in_U
+pwm2_4:in_mask
+pwm2_4:index
+pwm2_4:load_C
+pwm2_4:load_U
+pwm2_4:max_ref_C
+pwm2_4:min_ref_C
+pwm2_4:out_mask
+pwm2_4:ref_C
+pwm2_4:ref_C_Filter
+pwm2_4:temp
+pwm2_5:alarm
+pwm2_5:ctl
+pwm2_5:dig_in
+pwm2_5:dig_out
+pwm2_5:err_cmd
+pwm2_5:err_len
+pwm2_5:in_U
+pwm2_5:in_mask
+pwm2_5:index
+pwm2_5:load_C
+pwm2_5:load_U
+pwm2_5:max_ref_C
+pwm2_5:min_ref_C
+pwm2_5:out_mask
+pwm2_5:ref_C
+pwm2_5:ref_C_Filter
+pwm2_5:temp
+pwm3_5:alarm
+pwm3_5:ctl
+pwm3_5:dig_in
+pwm3_5:dig_out
+pwm3_5:err_cmd
+pwm3_5:err_len
+pwm3_5:in_U
+pwm3_5:in_mask
+pwm3_5:index
+pwm3_5:load_C
+pwm3_5:load_U
+pwm3_5:max_ref_C
+pwm3_5:min_ref_C
+pwm3_5:out_mask
+pwm3_5:ref_C
+pwm3_5:ref_C_Filter
+pwm3_5:temp
+pwm3_6:alarm
+pwm3_6:ctl
+pwm3_6:dig_in
+pwm3_6:dig_out
+pwm3_6:err_cmd
+pwm3_6:err_len
+pwm3_6:in_U
+pwm3_6:in_mask
+pwm3_6:index
+pwm3_6:load_C
+pwm3_6:load_U
+pwm3_6:max_ref_C
+pwm3_6:min_ref_C
+pwm3_6:out_mask
+pwm3_6:ref_C
+pwm3_6:ref_C_Filter
+pwm3_6:temp
+pwm3_7:alarm
+pwm3_7:ctl
+pwm3_7:dig_in
+pwm3_7:dig_out
+pwm3_7:err_cmd
+pwm3_7:err_len
+pwm3_7:in_U
+pwm3_7:in_mask
+pwm3_7:index
+pwm3_7:load_C
+pwm3_7:load_U
+pwm3_7:max_ref_C
+pwm3_7:min_ref_C
+pwm3_7:out_mask
+pwm3_7:ref_C
+pwm3_7:ref_C_Filter
+pwm3_7:temp
+pwm3_8:alarm
+pwm3_8:ctl
+pwm3_8:dig_in
+pwm3_8:dig_out
+pwm3_8:err_cmd
+pwm3_8:err_len
+pwm3_8:in_U
+pwm3_8:in_mask
+pwm3_8:index
+pwm3_8:load_C
+pwm3_8:load_U
+pwm3_8:max_ref_C
+pwm3_8:min_ref_C
+pwm3_8:out_mask
+pwm3_8:ref_C
+pwm3_8:ref_C_Filter
+pwm3_8:temp
+pwm3_9:alarm
+pwm3_9:ctl
+pwm3_9:dig_in
+pwm3_9:dig_out
+pwm3_9:err_cmd
+pwm3_9:err_len
+pwm3_9:in_U
+pwm3_9:in_mask
+pwm3_9:index
+pwm3_9:load_C
+pwm3_9:load_U
+pwm3_9:max_ref_C
+pwm3_9:min_ref_C
+pwm3_9:out_mask
+pwm3_9:ref_C
+pwm3_9:ref_C_Filter
+pwm3_9:temp
+pwmC03:alarm
+pwmC03:ctl
+pwmC03:dig_in
+pwmC03:dig_out
+pwmC03:err_cmd
+pwmC03:err_len
+pwmC03:in_U
+pwmC03:in_mask
+pwmC03:index
+pwmC03:load_C
+pwmC03:load_U
+pwmC03:max_ref_C
+pwmC03:min_ref_C
+pwmC03:out_mask
+pwmC03:ref_C
+pwmC03:ref_C_Filter
+pwmC03:temp
+pwm2_4:ctl_set
+pwm2_4:current_set
+pwm2_5:ctl_set
+pwm2_5:current_set
+pwm3_5:ctl_set
+pwm3_5:current_set
+pwm3_6:ctl_set
+pwm3_6:current_set
+pwm3_7:ctl_set
+pwm3_7:current_set
+pwm3_8:ctl_set
+pwm3_8:current_set
+pwm3_9:ctl_set
+pwm3_9:current_set
+pwmC03:ctl_set
+pwm2_4
+pwm2_5
+pwm3_5
+pwm3_6
+pwm3_7
+pwm3_8
+pwm3_9
+pwmC03
+

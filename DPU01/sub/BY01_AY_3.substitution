@@ -1,0 +1,33 @@
+file "../../db/aoFloat64.template" { pattern
+{P,    R,    PORT,    OFFSET,    DATA_TYPE,    LOPR,    HOPR,    PREC}
+{BY01,    AY101,    BY01_AY_3,    0,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY01,    AY102,    BY01_AY_3,    2,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY01,    AY103,    BY01_AY_3,    4,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY01,    AY104,    BY01_AY_3,    6,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY01,    AY105,    BY01_AY_3,    8,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY01,    AY106,    BY01_AY_3,    10,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY01,    AY107,    BY01_AY_3,    12,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY01,    AY108,    BY01_AY_3,    14,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY01,    AY109,    BY01_AY_3,    16,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY01,    AY110,    BY01_AY_3,    18,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY01,    AY111,    BY01_AY_3,    20,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY01,    AY112,    BY01_AY_3,    22,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY01,    AY113,    BY01_AY_3,    24,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY01,    AY114,    BY01_AY_3,    26,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY01,    AY115,    BY01_AY_3,    28,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY01,    AY116,    BY01_AY_3,    30,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY01,    AY117,    BY01_AY_3,    32,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY01,    AY118,    BY01_AY_3,    34,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY01,    AY119,    BY01_AY_3,    36,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY01,    AY120,    BY01_AY_3,    38,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY01,    AY121,    BY01_AY_3,    40,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY01,    AY122,    BY01_AY_3,    42,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY01,    AY123,    BY01_AY_3,    44,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY01,    AY124,    BY01_AY_3,    46,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY01,    AY125,    BY01_AY_3,    48,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY01,    AY126,    BY01_AY_3,    50,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY01,    AY127,    BY01_AY_3,    52,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY01,    AY128,    BY01_AY_3,    54,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY01,    AY129,    BY01_AY_3,    56,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY01,    AY130,    BY01_AY_3,    58,    FLOAT32_BE,    -1e6,    1e6,    3}
+}

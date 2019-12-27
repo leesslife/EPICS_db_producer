@@ -1,0 +1,369 @@
+file "/usr/local/epics/asyn4-29/db/asynRecord.db" { pattern
+{P,           R,       PORT,      ADDR,   IMAX,    OMAX}
+{TMSR:,    DCS,    DPU03,     0,      80,      80}
+}
+file "../../db/statistics.template" { pattern
+{P,           R,         PORT,          SCAN}
+{DPU03:,    Mod1BY03_AX_1,     BY03_AX_1,    "10 second"}
+{DPU03:,    Mod1BY03_AX_2,     BY03_AX_2,    "10 second"}
+{DPU03:,    Mod1BY03_AY_1,     BY03_AY_1,    "10 second"}
+{DPU03:,    Mod1BY03_AY_2,     BY03_AY_2,    "10 second"}
+{DPU03:,    Mod1BY03_DX_1,     BY03_DX_1,    "10 second"}
+{DPU03:,    Mod1BY03_DX_2,     BY03_DX_2,    "10 second"}
+{DPU03:,    Mod1BY03_DY_1,     BY03_DY_1,    "10 second"}
+}
+
+
+
+
+file "../../db/aiFloat64.template" { pattern
+{P,    R,    PORT,    OFFSET,    DATA_TYPE,    LOPR,    HOPR,    PREC,    SCAN}
+{BY03,    AX001,    BY03_AX_1,    0,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY03,    AX002,    BY03_AX_1,    2,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY03,    AX003,    BY03_AX_1,    4,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY03,    AX004,    BY03_AX_1,    6,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY03,    AX005,    BY03_AX_1,    8,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY03,    AX006,    BY03_AX_1,    10,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY03,    AX007,    BY03_AX_1,    12,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY03,    AX008,    BY03_AX_1,    14,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY03,    AX009,    BY03_AX_1,    16,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY03,    AX010,    BY03_AX_1,    18,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY03,    AX011,    BY03_AX_1,    20,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY03,    AX012,    BY03_AX_1,    22,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY03,    AX013,    BY03_AX_1,    24,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY03,    AX014,    BY03_AX_1,    26,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY03,    AX015,    BY03_AX_1,    28,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY03,    AX016,    BY03_AX_1,    30,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY03,    AX017,    BY03_AX_1,    32,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY03,    AX018,    BY03_AX_1,    34,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY03,    AX019,    BY03_AX_1,    36,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY03,    AX020,    BY03_AX_1,    38,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY03,    AX021,    BY03_AX_1,    40,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY03,    AX022,    BY03_AX_1,    42,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY03,    AX023,    BY03_AX_1,    44,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY03,    AX024,    BY03_AX_1,    46,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY03,    AX025,    BY03_AX_1,    48,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY03,    AX026,    BY03_AX_1,    50,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY03,    AX027,    BY03_AX_1,    52,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY03,    AX028,    BY03_AX_1,    54,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY03,    AX029,    BY03_AX_1,    56,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY03,    AX030,    BY03_AX_1,    58,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY03,    AX031,    BY03_AX_1,    60,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY03,    AX032,    BY03_AX_1,    62,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY03,    AX033,    BY03_AX_1,    64,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY03,    AX034,    BY03_AX_1,    66,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY03,    AX035,    BY03_AX_1,    68,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY03,    AX036,    BY03_AX_1,    70,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY03,    AX037,    BY03_AX_1,    72,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY03,    AX038,    BY03_AX_1,    74,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY03,    AX039,    BY03_AX_1,    76,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY03,    AX040,    BY03_AX_1,    78,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY03,    AX041,    BY03_AX_1,    80,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY03,    AX042,    BY03_AX_1,    82,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY03,    AX043,    BY03_AX_1,    84,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY03,    AX044,    BY03_AX_1,    86,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY03,    AX045,    BY03_AX_1,    88,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY03,    AX046,    BY03_AX_1,    90,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY03,    AX047,    BY03_AX_1,    92,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY03,    AX048,    BY03_AX_1,    94,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY03,    AX049,    BY03_AX_1,    96,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY03,    AX050,    BY03_AX_1,    98,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+}
+
+
+file "../../db/aiFloat64.template" { pattern
+{P,    R,    PORT,    OFFSET,    DATA_TYPE,    LOPR,    HOPR,    PREC,    SCAN}
+{BY03,    AX051,    BY03_AX_2,    0,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY03,    AX052,    BY03_AX_2,    2,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY03,    AX053,    BY03_AX_2,    4,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY03,    AX054,    BY03_AX_2,    6,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY03,    AX055,    BY03_AX_2,    8,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY03,    AX056,    BY03_AX_2,    10,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY03,    AX057,    BY03_AX_2,    12,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY03,    AX058,    BY03_AX_2,    14,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY03,    AX059,    BY03_AX_2,    16,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY03,    AX060,    BY03_AX_2,    18,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY03,    AX061,    BY03_AX_2,    20,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY03,    AX062,    BY03_AX_2,    22,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY03,    AX063,    BY03_AX_2,    24,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY03,    AX064,    BY03_AX_2,    26,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY03,    AX065,    BY03_AX_2,    28,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY03,    AX066,    BY03_AX_2,    30,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY03,    AX067,    BY03_AX_2,    32,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY03,    AX068,    BY03_AX_2,    34,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY03,    AX069,    BY03_AX_2,    36,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY03,    AX070,    BY03_AX_2,    38,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY03,    AX071,    BY03_AX_2,    40,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY03,    AX072,    BY03_AX_2,    42,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY03,    AX073,    BY03_AX_2,    44,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY03,    AX074,    BY03_AX_2,    46,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY03,    AX075,    BY03_AX_2,    48,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY03,    AX076,    BY03_AX_2,    50,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY03,    AX077,    BY03_AX_2,    52,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY03,    AX078,    BY03_AX_2,    54,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY03,    AX079,    BY03_AX_2,    56,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY03,    AX080,    BY03_AX_2,    58,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY03,    AX081,    BY03_AX_2,    60,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY03,    AX082,    BY03_AX_2,    62,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY03,    AX083,    BY03_AX_2,    64,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY03,    AX084,    BY03_AX_2,    66,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY03,    AX085,    BY03_AX_2,    68,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+}
+
+
+file "../../db/aoFloat64.template" { pattern
+{P,    R,    PORT,    OFFSET,    DATA_TYPE,    LOPR,    HOPR,    PREC}
+{BY03,    AY001,    BY03_AY_1,    0,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY002,    BY03_AY_1,    2,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY003,    BY03_AY_1,    4,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY004,    BY03_AY_1,    6,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY005,    BY03_AY_1,    8,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY006,    BY03_AY_1,    10,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY007,    BY03_AY_1,    12,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY008,    BY03_AY_1,    14,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY009,    BY03_AY_1,    16,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY010,    BY03_AY_1,    18,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY011,    BY03_AY_1,    20,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY012,    BY03_AY_1,    22,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY013,    BY03_AY_1,    24,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY014,    BY03_AY_1,    26,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY015,    BY03_AY_1,    28,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY016,    BY03_AY_1,    30,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY017,    BY03_AY_1,    32,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY018,    BY03_AY_1,    34,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY019,    BY03_AY_1,    36,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY020,    BY03_AY_1,    38,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY021,    BY03_AY_1,    40,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY022,    BY03_AY_1,    42,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY023,    BY03_AY_1,    44,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY024,    BY03_AY_1,    46,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY025,    BY03_AY_1,    48,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY026,    BY03_AY_1,    50,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY027,    BY03_AY_1,    52,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY028,    BY03_AY_1,    54,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY029,    BY03_AY_1,    56,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY030,    BY03_AY_1,    58,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY031,    BY03_AY_1,    60,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY032,    BY03_AY_1,    62,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY033,    BY03_AY_1,    64,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY034,    BY03_AY_1,    66,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY035,    BY03_AY_1,    68,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY036,    BY03_AY_1,    70,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY037,    BY03_AY_1,    72,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY038,    BY03_AY_1,    74,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY039,    BY03_AY_1,    76,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY040,    BY03_AY_1,    78,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY041,    BY03_AY_1,    80,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY042,    BY03_AY_1,    82,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY043,    BY03_AY_1,    84,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY044,    BY03_AY_1,    86,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY045,    BY03_AY_1,    88,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY046,    BY03_AY_1,    90,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY047,    BY03_AY_1,    92,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY048,    BY03_AY_1,    94,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY049,    BY03_AY_1,    96,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY050,    BY03_AY_1,    98,    FLOAT32_BE,    -1e6,    1e6,    3}
+}
+
+
+file "../../db/aoFloat64.template" { pattern
+{P,    R,    PORT,    OFFSET,    DATA_TYPE,    LOPR,    HOPR,    PREC}
+{BY03,    AY051,    BY03_AY_2,    0,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY052,    BY03_AY_2,    2,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY053,    BY03_AY_2,    4,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY054,    BY03_AY_2,    6,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY055,    BY03_AY_2,    8,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY056,    BY03_AY_2,    10,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY057,    BY03_AY_2,    12,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY058,    BY03_AY_2,    14,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY059,    BY03_AY_2,    16,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY060,    BY03_AY_2,    18,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY061,    BY03_AY_2,    20,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY062,    BY03_AY_2,    22,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY063,    BY03_AY_2,    24,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY064,    BY03_AY_2,    26,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY065,    BY03_AY_2,    28,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY066,    BY03_AY_2,    30,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY067,    BY03_AY_2,    32,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY068,    BY03_AY_2,    34,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY069,    BY03_AY_2,    36,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY070,    BY03_AY_2,    38,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY071,    BY03_AY_2,    40,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY072,    BY03_AY_2,    42,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY073,    BY03_AY_2,    44,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY074,    BY03_AY_2,    46,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY075,    BY03_AY_2,    48,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY076,    BY03_AY_2,    50,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY077,    BY03_AY_2,    52,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY078,    BY03_AY_2,    54,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY079,    BY03_AY_2,    56,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY080,    BY03_AY_2,    58,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY081,    BY03_AY_2,    60,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY082,    BY03_AY_2,    62,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY083,    BY03_AY_2,    64,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY084,    BY03_AY_2,    66,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY085,    BY03_AY_2,    68,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY086,    BY03_AY_2,    70,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY087,    BY03_AY_2,    72,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY088,    BY03_AY_2,    74,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY089,    BY03_AY_2,    76,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY090,    BY03_AY_2,    78,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY091,    BY03_AY_2,    80,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY092,    BY03_AY_2,    82,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY093,    BY03_AY_2,    84,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY094,    BY03_AY_2,    86,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY095,    BY03_AY_2,    88,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY096,    BY03_AY_2,    90,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY097,    BY03_AY_2,    92,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY098,    BY03_AY_2,    94,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY099,    BY03_AY_2,    96,    FLOAT32_BE,    -1e6,    1e6,    3}
+{BY03,    AY100,    BY03_AY_2,    98,    FLOAT32_BE,    -1e6,    1e6,    3}
+}
+
+
+file "../../db/bi_bit.template" { pattern
+{P,    R,    PORT,    OFFSET,    ZNAM,    ONAM,    ZSV,    OSV,    SCAN}
+{BY03,    DX001,    BY03_DX_1,    0,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX002,    BY03_DX_1,    1,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX003,    BY03_DX_1,    2,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX004,    BY03_DX_1,    3,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX005,    BY03_DX_1,    4,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX006,    BY03_DX_1,    5,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX007,    BY03_DX_1,    6,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX008,    BY03_DX_1,    7,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX009,    BY03_DX_1,    8,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX010,    BY03_DX_1,    9,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX011,    BY03_DX_1,    10,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX012,    BY03_DX_1,    11,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX013,    BY03_DX_1,    12,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX014,    BY03_DX_1,    13,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX015,    BY03_DX_1,    14,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX016,    BY03_DX_1,    15,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX017,    BY03_DX_1,    16,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX018,    BY03_DX_1,    17,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX019,    BY03_DX_1,    18,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX020,    BY03_DX_1,    19,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX021,    BY03_DX_1,    20,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX022,    BY03_DX_1,    21,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX023,    BY03_DX_1,    22,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX024,    BY03_DX_1,    23,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX025,    BY03_DX_1,    24,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX026,    BY03_DX_1,    25,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX027,    BY03_DX_1,    26,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX028,    BY03_DX_1,    27,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX029,    BY03_DX_1,    28,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX030,    BY03_DX_1,    29,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX031,    BY03_DX_1,    30,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX032,    BY03_DX_1,    31,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX033,    BY03_DX_1,    32,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX034,    BY03_DX_1,    33,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX035,    BY03_DX_1,    34,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX036,    BY03_DX_1,    35,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX037,    BY03_DX_1,    36,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX038,    BY03_DX_1,    37,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX039,    BY03_DX_1,    38,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX040,    BY03_DX_1,    39,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX041,    BY03_DX_1,    40,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX042,    BY03_DX_1,    41,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX043,    BY03_DX_1,    42,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX044,    BY03_DX_1,    43,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX045,    BY03_DX_1,    44,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX046,    BY03_DX_1,    45,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX047,    BY03_DX_1,    46,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX048,    BY03_DX_1,    47,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX049,    BY03_DX_1,    48,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX050,    BY03_DX_1,    49,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+}
+
+
+file "../../db/bi_bit.template" { pattern
+{P,    R,    PORT,    OFFSET,    ZNAM,    ONAM,    ZSV,    OSV,    SCAN}
+{BY03,    DX051,    BY03_DX_2,    0,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX052,    BY03_DX_2,    1,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX053,    BY03_DX_2,    2,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX054,    BY03_DX_2,    3,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX055,    BY03_DX_2,    4,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX056,    BY03_DX_2,    5,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX057,    BY03_DX_2,    6,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX058,    BY03_DX_2,    7,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX059,    BY03_DX_2,    8,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX060,    BY03_DX_2,    9,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX061,    BY03_DX_2,    10,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX062,    BY03_DX_2,    11,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX063,    BY03_DX_2,    12,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX064,    BY03_DX_2,    13,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX065,    BY03_DX_2,    14,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX066,    BY03_DX_2,    15,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX067,    BY03_DX_2,    16,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX068,    BY03_DX_2,    17,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX069,    BY03_DX_2,    18,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX070,    BY03_DX_2,    19,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX071,    BY03_DX_2,    20,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX072,    BY03_DX_2,    21,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX073,    BY03_DX_2,    22,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX074,    BY03_DX_2,    23,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX075,    BY03_DX_2,    24,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX076,    BY03_DX_2,    25,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX077,    BY03_DX_2,    26,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX078,    BY03_DX_2,    27,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX079,    BY03_DX_2,    28,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX080,    BY03_DX_2,    29,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX081,    BY03_DX_2,    30,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX082,    BY03_DX_2,    31,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX083,    BY03_DX_2,    32,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX084,    BY03_DX_2,    33,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX085,    BY03_DX_2,    34,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX086,    BY03_DX_2,    35,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX087,    BY03_DX_2,    36,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX088,    BY03_DX_2,    37,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX089,    BY03_DX_2,    38,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX090,    BY03_DX_2,    39,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX091,    BY03_DX_2,    40,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX092,    BY03_DX_2,    41,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX093,    BY03_DX_2,    42,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX094,    BY03_DX_2,    43,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX095,    BY03_DX_2,    44,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX096,    BY03_DX_2,    45,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX097,    BY03_DX_2,    46,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX098,    BY03_DX_2,    47,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX099,    BY03_DX_2,    48,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY03,    DX100,    BY03_DX_2,    49,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+}
+
+
+file "../../db/bo_bit.template" { pattern
+{P,    R,    PORT,    OFFSET,    ZNAM,    ONAM}
+{BY03,    DY001,    BY03_DY_1,    49,    Low,    High}
+{BY03,    DY002,    BY03_DY_1,    0,    Low,    High}
+{BY03,    DY003,    BY03_DY_1,    1,    Low,    High}
+{BY03,    DY004,    BY03_DY_1,    2,    Low,    High}
+{BY03,    DY005,    BY03_DY_1,    3,    Low,    High}
+{BY03,    DY006,    BY03_DY_1,    4,    Low,    High}
+{BY03,    DY007,    BY03_DY_1,    5,    Low,    High}
+{BY03,    DY008,    BY03_DY_1,    6,    Low,    High}
+{BY03,    DY009,    BY03_DY_1,    7,    Low,    High}
+{BY03,    DY010,    BY03_DY_1,    8,    Low,    High}
+{BY03,    DY011,    BY03_DY_1,    9,    Low,    High}
+{BY03,    DY012,    BY03_DY_1,    10,    Low,    High}
+{BY03,    DY013,    BY03_DY_1,    11,    Low,    High}
+{BY03,    DY014,    BY03_DY_1,    12,    Low,    High}
+{BY03,    DY015,    BY03_DY_1,    13,    Low,    High}
+{BY03,    DY016,    BY03_DY_1,    14,    Low,    High}
+{BY03,    DY017,    BY03_DY_1,    15,    Low,    High}
+{BY03,    DY018,    BY03_DY_1,    16,    Low,    High}
+{BY03,    DY019,    BY03_DY_1,    17,    Low,    High}
+{BY03,    DY020,    BY03_DY_1,    18,    Low,    High}
+{BY03,    DY021,    BY03_DY_1,    19,    Low,    High}
+{BY03,    DY022,    BY03_DY_1,    20,    Low,    High}
+{BY03,    DY023,    BY03_DY_1,    21,    Low,    High}
+{BY03,    DY024,    BY03_DY_1,    22,    Low,    High}
+{BY03,    DY025,    BY03_DY_1,    23,    Low,    High}
+{BY03,    DY026,    BY03_DY_1,    24,    Low,    High}
+{BY03,    DY027,    BY03_DY_1,    25,    Low,    High}
+{BY03,    DY028,    BY03_DY_1,    26,    Low,    High}
+{BY03,    DY029,    BY03_DY_1,    27,    Low,    High}
+{BY03,    DY030,    BY03_DY_1,    28,    Low,    High}
+{BY03,    DY031,    BY03_DY_1,    29,    Low,    High}
+{BY03,    DY032,    BY03_DY_1,    30,    Low,    High}
+{BY03,    DY033,    BY03_DY_1,    31,    Low,    High}
+}

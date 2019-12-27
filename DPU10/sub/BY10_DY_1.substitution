@@ -1,0 +1,22 @@
+file "../../db/bo_bit.template" { pattern
+{P,    R,    PORT,    OFFSET,    ZNAM,    ONAM}
+{BY10,    DY001,    BY10_DY_1,    1,    Low,    High}
+{BY10,    DY002,    BY10_DY_1,    2,    Low,    High}
+{BY10,    DY003,    BY10_DY_1,    3,    Low,    High}
+{BY10,    DY004,    BY10_DY_1,    4,    Low,    High}
+{BY10,    DY005,    BY10_DY_1,    5,    Low,    High}
+{BY10,    DY006,    BY10_DY_1,    6,    Low,    High}
+{BY10,    DY007,    BY10_DY_1,    7,    Low,    High}
+{BY10,    DY008,    BY10_DY_1,    8,    Low,    High}
+{BY10,    DY009,    BY10_DY_1,    9,    Low,    High}
+{BY10,    DY010,    BY10_DY_1,    10,    Low,    High}
+{BY10,    DY011,    BY10_DY_1,    11,    Low,    High}
+{BY10,    DY012,    BY10_DY_1,    12,    Low,    High}
+{BY10,    DY013,    BY10_DY_1,    13,    Low,    High}
+{BY10,    DY014,    BY10_DY_1,    14,    Low,    High}
+{BY10,    DY015,    BY10_DY_1,    15,    Low,    High}
+{BY10,    DY016,    BY10_DY_1,    16,    Low,    High}
+{BY10,    DY017,    BY10_DY_1,    17,    Low,    High}
+{BY10,    DY018,    BY10_DY_1,    18,    Low,    High}
+{BY10,    DY019,    BY10_DY_1,    19,    Low,    High}
+}

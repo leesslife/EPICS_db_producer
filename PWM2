@@ -1,0 +1,186 @@
+2019/04/02 13:34:49.945 pwm2_2: queueRequest failed
+
+2019/04/02 13:34:49.945 pwm2_2: queueRequest failed
+
+2019/04/02 13:34:49.945 pwm2_3: queueRequest failed
+
+2019/04/02 13:34:49.945 pwm2_3: queueRequest failed
+
+2019/04/02 13:34:49.945 pwm2_6: queueRequest failed
+
+2019/04/02 13:34:49.945 pwm2_6: queueRequest failed
+
+2019/04/02 13:34:49.945 pwm3_3: queueRequest failed
+
+2019/04/02 13:34:49.945 pwm3_3: queueRequest failed
+
+2019/04/02 13:34:49.945 pwm3_4: queueRequest failed
+
+2019/04/02 13:34:49.945 pwm3_4: queueRequest failed
+
+2019/04/02 13:34:49.945 pwmC02: queueRequest failed
+
+2019/04/02 13:34:49.945 pwmC02: queueRequest failed
+
+iocInit: Reached initHookAfterInitDatabase
+iocInit: Reached initHookAfterFinishDevSup
+iocInit: Reached initHookAfterScanInit
+iocInit: Reached initHookAfterInitialProcess
+cas warning: Configured TCP port was unavailable.
+cas warning: Using dynamically assigned TCP port 37142,
+cas warning: but now two or more servers share the same UDP port.
+cas warning: Depending on your IP kernel this server may not be
+cas warning: reachable with UDP unicast (a host's IP in EPICS_CA_ADDR_LIST)
+The CA server's beacon address list was empty after initialization?
+iocInit: Reached initHookAfterCaServerInit
+iocInit: Reached initHookAfterIocBuilt
+iocInit: Reached initHookAtIocRun
+iocInit: Reached initHookAfterDatabaseRunning
+iocInit: Reached initHookAfterInterruptAccept
+iocInit: Reached initHookAfterCaServerRunning
+iocInit: Reached initHookAtEnd
+iocRun: All initialization complete
+iocInit: Reached initHookAfterIocRunning
+## Start any sequence programs
+#seq sncExample, "user=hanlifengHost"
+depics> dbl
+pwm1_1:alarm
+pwm1_1:ctl
+pwm1_1:dig_in
+pwm1_1:dig_out
+pwm1_1:err_cmd
+pwm1_1:err_len
+pwm1_1:in_U
+pwm1_1:in_mask
+pwm1_1:index
+pwm1_1:load_C
+pwm1_1:load_U
+pwm1_1:max_ref_C
+pwm1_1:min_ref_C
+pwm1_1:out_mask
+pwm1_1:ref_C
+pwm1_1:ref_C_Filter
+pwm1_1:temp
+pwm2_2:alarm
+pwm2_2:ctl
+pwm2_2:dig_in
+pwm2_2:dig_out
+pwm2_2:err_cmd
+pwm2_2:err_len
+pwm2_2:in_U
+pwm2_2:in_mask
+pwm2_2:index
+pwm2_2:load_C
+pwm2_2:load_U
+pwm2_2:max_ref_C
+pwm2_2:min_ref_C
+pwm2_2:out_mask
+pwm2_2:ref_C
+pwm2_2:ref_C_Filter
+pwm2_2:temp
+pwm2_3:alarm
+pwm2_3:ctl
+pwm2_3:dig_in
+pwm2_3:dig_out
+pwm2_3:err_cmd
+pwm2_3:err_len
+pwm2_3:in_U
+pwm2_3:in_mask
+pwm2_3:index
+pwm2_3:load_C
+pwm2_3:load_U
+pwm2_3:max_ref_C
+pwm2_3:min_ref_C
+pwm2_3:out_mask
+pwm2_3:ref_C
+pwm2_3:ref_C_Filter
+pwm2_3:temp
+pwm2_6:alarm
+pwm2_6:ctl
+pwm2_6:dig_in
+pwm2_6:dig_out
+pwm2_6:err_cmd
+pwm2_6:err_len
+pwm2_6:in_U
+pwm2_6:in_mask
+pwm2_6:index
+pwm2_6:load_C
+pwm2_6:load_U
+pwm2_6:max_ref_C
+pwm2_6:min_ref_C
+pwm2_6:out_mask
+pwm2_6:ref_C
+pwm2_6:ref_C_Filter
+pwm2_6:temp
+pwm3_3:alarm
+pwm3_3:ctl
+pwm3_3:dig_in
+pwm3_3:dig_out
+pwm3_3:err_cmd
+pwm3_3:err_len
+pwm3_3:in_U
+pwm3_3:in_mask
+pwm3_3:index
+pwm3_3:load_C
+pwm3_3:load_U
+pwm3_3:max_ref_C
+pwm3_3:min_ref_C
+pwm3_3:out_mask
+pwm3_3:ref_C
+pwm3_3:ref_C_Filter
+pwm3_3:temp
+pwm3_4:alarm
+pwm3_4:ctl
+pwm3_4:dig_in
+pwm3_4:dig_out
+pwm3_4:err_cmd
+pwm3_4:err_len
+pwm3_4:in_U
+pwm3_4:in_mask
+pwm3_4:index
+pwm3_4:load_C
+pwm3_4:load_U
+pwm3_4:max_ref_C
+pwm3_4:min_ref_C
+pwm3_4:out_mask
+pwm3_4:ref_C
+pwm3_4:ref_C_Filter
+pwm3_4:temp
+pwmC02:alarm
+pwmC02:ctl
+pwmC02:dig_in
+pwmC02:dig_out
+pwmC02:err_cmd
+pwmC02:err_len
+pwmC02:in_U
+pwmC02:in_mask
+pwmC02:index
+pwmC02:load_C
+pwmC02:load_U
+pwmC02:max_ref_C
+pwmC02:min_ref_C
+pwmC02:out_mask
+pwmC02:ref_C
+pwmC02:ref_C_Filter
+pwmC02:temp
+pwm1_1:ctl_set
+pwm1_1:current_set
+pwm2_2:ctl_set
+pwm2_2:current_set
+pwm2_3:ctl_set
+pwm2_3:current_set
+pwm2_6:ctl_set
+pwm2_6:current_set
+pwm3_3:ctl_set
+pwm3_3:current_set
+pwm3_4:ctl_set
+pwm3_4:current_set
+pwmC02:ctl_set
+pwm1_1
+pwm2_2
+pwm2_3
+pwm2_6
+pwm3_3
+pwm3_4
+pwmC02
+

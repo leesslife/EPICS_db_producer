@@ -1,0 +1,8 @@
+file "../../db/aiFloat64.template" { pattern
+{P,    R,    PORT,    OFFSET,    DATA_TYPE,    LOPR,    HOPR,    PREC,    SCAN}
+{BY01,    AX0101,    BY01_AX_3,    0,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY01,    AX0102,    BY01_AX_3,    2,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY01,    AX0103,    BY01_AX_3,    4,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY01,    AX0104,    BY01_AX_3,    6,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY01,    AX0105,    BY01_AX_3,    8,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+}

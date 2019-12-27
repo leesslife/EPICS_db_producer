@@ -1,0 +1,7 @@
+file "../../db/bi_bit.template" { pattern
+{P,    R,    PORT,    OFFSET,    ZNAM,    ONAM,    ZSV,    OSV,    SCAN}
+{BY04,    DX101,    BY04_DX_3,    0,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY04,    DX102,    BY04_DX_3,    1,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY04,    DX103,    BY04_DX_3,    2,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+{BY04,    DX104,    BY04_DX_3,    3,    Low,    High,    NO_ALARM,    MAJOR,    "I/O Intr"}
+}

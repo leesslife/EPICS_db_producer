@@ -1,0 +1,40 @@
+file "../../db/aiFloat64.template" { pattern
+{P,    R,    PORT,    OFFSET,    DATA_TYPE,    LOPR,    HOPR,    PREC,    SCAN}
+{BY06,    AX051,    BY06_AX_2,    0,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY06,    AX052,    BY06_AX_2,    2,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY06,    AX053,    BY06_AX_2,    4,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY06,    AX054,    BY06_AX_2,    6,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY06,    AX055,    BY06_AX_2,    8,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY06,    AX056,    BY06_AX_2,    10,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY06,    AX057,    BY06_AX_2,    12,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY06,    AX058,    BY06_AX_2,    14,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY06,    AX059,    BY06_AX_2,    16,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY06,    AX060,    BY06_AX_2,    18,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY06,    AX061,    BY06_AX_2,    20,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY06,    AX062,    BY06_AX_2,    22,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY06,    AX063,    BY06_AX_2,    24,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY06,    AX064,    BY06_AX_2,    26,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY06,    AX065,    BY06_AX_2,    28,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY06,    AX066,    BY06_AX_2,    30,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY06,    AX067,    BY06_AX_2,    32,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY06,    AX068,    BY06_AX_2,    34,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY06,    AX069,    BY06_AX_2,    36,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY06,    AX070,    BY06_AX_2,    38,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY06,    AX071,    BY06_AX_2,    40,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY06,    AX072,    BY06_AX_2,    42,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY06,    AX073,    BY06_AX_2,    44,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY06,    AX074,    BY06_AX_2,    46,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY06,    AX075,    BY06_AX_2,    48,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY06,    AX076,    BY06_AX_2,    50,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY06,    AX077,    BY06_AX_2,    52,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY06,    AX078,    BY06_AX_2,    54,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY06,    AX079,    BY06_AX_2,    56,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY06,    AX080,    BY06_AX_2,    58,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY06,    AX081,    BY06_AX_2,    60,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY06,    AX082,    BY06_AX_2,    62,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY06,    AX083,    BY06_AX_2,    64,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY06,    AX084,    BY06_AX_2,    66,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY06,    AX085,    BY06_AX_2,    68,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY06,    AX086,    BY06_AX_2,    70,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+{BY06,    AX087,    BY06_AX_2,    72,    FLOAT32_LE,    -1e6,    1e6,    2,    "I/O Intr"}
+}

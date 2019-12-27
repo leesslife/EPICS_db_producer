@@ -1,0 +1,7 @@
+epicsEnvSet("ARCH","linux-x86_64")
+epicsEnvSet("IOC","iocTest")
+epicsEnvSet("TOP","/usr/local/epics/modbus2-8")
+epicsEnvSet("SUPPORT","/usr/local/epics/")
+epicsEnvSet("ASYN","/usr/local/epics/asyn4-29")
+epicsEnvSet("EPICS_BASE","/usr/local/epics/base")
+epicsEnvSet("EPICS_CAS_SERVER_PORT","9001")

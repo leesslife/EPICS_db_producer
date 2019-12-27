@@ -1,0 +1,26 @@
+file "/usr/local/epics/asyn4-29/db/asynRecord.db" { pattern
+{P,           R,       PORT,      ADDR,   IMAX,    OMAX}
+{TMSR:    DCS,    DPU01,     0,      80,      80}
+}
+
+# These are the Yn inputs done with bit access Y0-Y11
+
+file "../../db/statistics.template" { pattern
+{P,           R,         PORT,          SCAN}
+{DPU01:,    Mod1,     Mod1_BI,  "10 second"}
+}
+
+
+file "../../db/aiFloat64.template" { pattern
+{P,           R,                PORT,     OFFSET,   DATA_TYPE,    LOPR, HOPR, PREC,    SCAN}
+{DPU01:,    AI:FLOAT1_BE,    Mod1_AI,    10,      FLOAT32_BE,     -1e6,  1e6,    0,   "I/O Intr"}
+{DPU01:,    AI:FLOAT2_BE,    Mod1_AI,    12,      FLOAT32_BE,     -1e6,  1e6,    0,   "I/O Intr"}
+{DPU01:,    AI:FLOAT3_BE,    Mod1_AI,    14,      FLOAT32_BE,     -1e6,  1e6,    0,   "I/O Intr"}
+{DPU01:,    AI:FLOAT4_BE,    Mod1_AI,    18,      FLOAT32_BE,     -1e6,  1e6,    0,   "I/O Intr"}
+{DPU01:,    AI:FLOAT5_BE,    Mod1_AI,    22,      FLOAT32_BE,     -1e6,  1e6,    0,   "I/O Intr"}
+{DPU01:,    AI:FLOAT6_BE,    Mod1_AI,    24,      FLOAT32_BE,     -1e6,  1e6,    0,   "I/O Intr"}
+{DPU01:,    AI:FLOAT7_BE,    Mod1_AI,    26,      FLOAT32_BE,     -1e6,  1e6,    0,   "I/O Intr"}
+}
+
+
+
